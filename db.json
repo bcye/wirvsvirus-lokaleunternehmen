@@ -3,24 +3,26 @@
     "unternehmen": [
       {
         "unternehmen_id": "String",
-        "kontaktlose_oeffnungszeiten": [
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"},
-          { "start": "String/Date" , "stop": "String/Date"}
-        ],
-        "name": "String",
-        "categories": [ "String" ],
-        "adresse": "String",
-        "latitude": "String/float",
-        "longitude": "String/float",
-        "email": "String",
-        "telefon": "String",
-        "max_pro_slot": "Integer",
-        "available_time_slots": [ {"start": "String/Date", "stop": "String/Date" } ]
+        "meta": {
+          "kontaktlose_oeffnungszeiten": [
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"},
+            { "start": "String/Date" , "stop": "String/Date"}
+          ],
+          "name": "String",
+          "categories": [ "String" ],
+          "adresse": "String",
+          "latitude": "String/float",
+          "longitude": "String/float",
+          "email": "String",
+          "telefon": "String",
+          "max_pro_slot": "Integer",
+          "available_time_slots": [ {"start": "String/Date", "stop": "String/Date" } ]
+        }
       },
       {
         "unternehmen_id": "00001",
